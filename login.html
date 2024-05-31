@@ -3,35 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Balcoba | Q4GFA1 Barium</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <form onsubmit="return myFunction();">
-        <fieldset form="login" id="logins">
-            <legend>Log-in Credentials: </legend>
-
-        
-        <label for="UserName">Input your Username:</label>
-        <input type="text" id="UserName" name="UserName"></br>
-        
-        <label for="Email">Email:</label>
-        <input type="email" id="Email" name="Email"></br>
-        
-        <label for="password">Input your Password:</label>
-        <input type = "password" id="pass" name="password"></br>
-        
-        
-       
-        <label for="gender">Select your gender</label><br>
-            <select name="gender" id="gender">
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-                <option value="I prefer not to say">I prefer not to say</option>
-            </select></br>
-        
-        <input type="submit">
-        <input type = "reset" value = "Reset">
-    </fieldset>
-</form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section>
+        <form id="login" onsubmit="userCredentials()">
+            <fieldset form="login">
+                <legend>Sign In</legend>
+                <label for="username">Username:</label>
+                <input type="text" id="user" name="username" onblur="noUserInput()" onfocus="hasUserInput()"><br/>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" onblur="noEmailInput()" onfocus="hasEmailInput()"><br/>
+                <label for="password">Password:</label>
+                <input type="password" id="pass" name="password" onblur="noPassInput()" onfocus="hasPassInput()"><br/>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" onblur="noAddressInput()" onfocus="hasAddressInput()"><br/>
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender" onblur="noGenderInput()" onfocus="hasGenderInput()">
+                    <option value="default" disabled selected value></option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="pntm">Prefer Not to Mention</option>
+                </select><br/>
+                <a href="index.html">
+                    <input type="submit" value="Submit" onclick="document.location = 'index.html'">
+                </a>
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </section>
 </body>
 </html>
