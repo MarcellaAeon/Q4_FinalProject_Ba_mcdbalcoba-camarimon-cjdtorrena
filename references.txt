@@ -1,0 +1,6 @@
+https://www.cdc.gov/vitalsigns/young-teen-pregnancy/index.html
+Asia - https://ourworldindata.org/grapher/adolescent-fertility?time=2019&region=Asia&facet=none&country=~PHL
+PH - https://ourworldindata.org/grapher/adolescent-fertility?tab=chart&time=earliest..2019&region=Asia&facet=none&country=~PHL
+PH vs SEA - https://ourworldindata.org/grapher/adolescent-fertility?tab=chart&time=earliest..2019&region=Asia&facet=none&country=PHL~Eastern+and+South-Eastern+Asia+%28UN%29
+Livebirths - https://palawan-news.com/special-report-teenage-pregnancy-in-palawan-a-case-for-a-multi-sectoral-solution/
+World - https://ourworldindata.org/grapher/adolescent-fertility?time=2019&facet=none&country=~PHL
